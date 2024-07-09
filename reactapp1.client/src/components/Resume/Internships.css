@@ -1,0 +1,114 @@
+.internshipTitleTopPadding {
+    text-indent: 0pt;
+    text-align: left;
+}
+
+.internshipTitleValue {
+    text-indent: 0pt;
+    text-align: center;
+    color: #a9a9de;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+.internshipTitleBottomPadding {
+    text-indent: 0pt;
+    text-align: left;
+}
+
+.internshipCompanyName {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+    float: left;
+}
+
+.internshipLocation {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+    float: right;
+}
+
+.internshipRole {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+    float: left;
+}
+
+.internshipDateRange {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+    float: right;
+}
+
+.internshipResponsibilitiesUnorderedList {
+    margin: 0;
+    text-indent: 0;
+}
+
+.internshipResponsibilitiesListItem {
+}
+
+.internshipResponsibilitiesValue {
+    padding-top: 6pt;
+    padding-left: 17pt;
+    text-indent: -5pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+    margin: 0pt;
+}
+
+.internshipCompanyNameAndLocation {
+    height: 21px;
+}
+
+.internshipRoleAndDateRange {
+    height: 21px;
+}
+
+.internshipResponsibilities {
+    height: 21px;
+}
+
+.internshipSection {
+    width: 60%;
+}

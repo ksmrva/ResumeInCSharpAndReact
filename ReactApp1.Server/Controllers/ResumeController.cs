@@ -59,6 +59,24 @@ namespace ReactApp1.Server.Controllers
             }
         };
 
+        private static readonly IEnumerable<Internship> Internships = new[]
+        {
+            new Internship{ SchoolName = "Georgia Institute of Technology", City = "Atlanta", State = "GA",
+                            Role = "NSF Research Experience for Undergraduates", FromDate = "05/2013", ToDate = "08/2013",
+                            Responsibilities = ["Utilized C++ and the CUDA platform in order to increase the speed and efficiency of computer vision algorithms such as the Hough transform and Sobel edge detection",
+                                                "Mapped various mathematical models to parallel programming algorithms in order to harness the power of GPGPU for real time image processing",
+                                                "Underwent the rigors and learned the intricacies of academic research through assisting Dr. Patricio Vela and his graduate students"
+                                               ]
+            },
+            new Internship{ SchoolName = "Georgia State University", City = "Atlanta", State = "GA",
+                            Role = "NSF Research Experience for Undergraduates", FromDate = "05/2012", ToDate = "08/2012",
+                            Responsibilities = ["Incorporated machine learning algorithms into GPGPU code using C++ and the CUDA platform in order to predict outcomes from datasets containing billions of records",
+                                                "Assisted graduate students with data mining projects ranging from complex biomedical applications using feature selection techniques to simple programs such as implementing the k-means algorithm in CUDA",
+                                                "Utilized technologies such as Hadoop and Cassandra in order to work within large scale distributed environments"
+                                               ]
+            }
+        };
+
         [HttpGet("header")]
         public HeaderData GetHeaderData()
         {
@@ -75,6 +93,12 @@ namespace ReactApp1.Server.Controllers
         public Experience[] GetExperiences()
         {
             return Experiences.ToArray();
+        }
+
+        [HttpGet("internships")]
+        public Internship[] GetInternships()
+        {
+            return Internships.ToArray();
         }
     }
 }

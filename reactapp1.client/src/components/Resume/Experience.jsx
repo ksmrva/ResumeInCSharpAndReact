@@ -17,14 +17,14 @@ function Experience() {
 
     function createExperienceSectionTitle() {
         const experienceSectionTitle = [];
-      //  experienceSectionTitle.push(<p className="experienceTitleTopPadding">
-     //                                   <br></br>
-      //                              </p>);
+        experienceSectionTitle.push(<p className="experienceTitleTopPadding">
+                                        <br></br>
+                                    </p>);
 
         experienceSectionTitle.push(<h1 className="experienceTitleValue">Professional Experience</h1>);
 
-     //   experienceSectionTitle.push(<p className="experienceTitleBottomPadding">
-    //                                </p>);
+        experienceSectionTitle.push(<p className="experienceTitleBottomPadding">
+                                    </p>);
         return experienceSectionTitle;
     }
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./Header.jsx"
 import Skills from "./Skills.jsx"
 import Experience from "./Experience.jsx"
+import Internships from "./Internships.jsx"
 import './Resume.css'
 
 function Resume() {
@@ -15,6 +16,7 @@ function Resume() {
                 </tbody>
             </table>
             <Experience></Experience>
+            <Internships></Internships>
         </main>
     )
 
