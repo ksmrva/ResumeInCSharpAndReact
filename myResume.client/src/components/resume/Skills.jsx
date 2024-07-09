@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Images from "./Images.js";
 import './Skills.css'
 
 function Skills() {
@@ -20,7 +21,9 @@ function Skills() {
                                     <ul className="skillUnorderedList">
                                         <li className="skillListItem">
                                             <p className="skillValue">
-                                                {skill}
+                        {skill === "C#" ? 
+                            <img src={Images.find(image => image.language === skill)?.image}/> : null}
+                        {skill}
                                             </p>
                                         </li>
                                     </ul>
