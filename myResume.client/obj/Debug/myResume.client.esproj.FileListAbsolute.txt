@@ -1,0 +1,2 @@
+C:\Users\ksmrv\source\repos\ReactApp1\reactapp1.client\obj\Debug\myResume.client.esproj.CoreCompileInputs.cache
+C:\Users\ksmrv\source\repos\MyResume\myResume.client\obj\Debug\myResume.client.esproj.CoreCompileInputs.cache
