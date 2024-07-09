@@ -93,8 +93,14 @@
     border-top-width: 1pt;
 }
 
-.headerSectionTitleRightPadding {
-    width: 131pt;
+.headerSectionTitleRightPadding1 {
+    width: 44pt;
+    border-top-style: solid;
+    border-top-width: 1pt;
+}
+
+.headerSectionTitleRightPadding2 {
+    width: 87pt;
     border-top-style: solid;
     border-top-width: 1pt;
 }

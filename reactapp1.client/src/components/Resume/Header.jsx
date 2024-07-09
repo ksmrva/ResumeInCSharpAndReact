@@ -61,7 +61,9 @@ function Header() {
                     Kevin S. Mark
                 </p>
             </td>
-            <td className="headerSectionTitleRightPadding">
+            <td className="headerSectionTitleRightPadding1">
+            </td>
+            <td className="headerSectionTitleRightPadding2">
             </td>
         </tr>);
         return rowForHeaderSectionTitle;
