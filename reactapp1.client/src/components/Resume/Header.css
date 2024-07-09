@@ -1,0 +1,125 @@
+.headerMain {
+    height: 37pt;
+}
+
+.phoneSection {
+    width: 143pt;
+    border-bottom-style: solid;
+    border-bottom-width: 1pt;
+}
+
+.phoneSectionTopPadding {
+    padding-top: 11pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+
+.phoneSectionValue {
+    padding-left: 4pt;
+    text-indent: 0pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.addressSection {
+    width: 202pt;
+    border-bottom-style: solid;
+    border-bottom-width: 1pt
+}
+
+.addressSectionValue {
+    padding-left: 51pt;
+    padding-right: 12pt;
+    text-indent: -8pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.emailSectionLeftPadding {
+    width: 44pt;
+    border-bottom-style: solid;
+    border-bottom-width: 1pt;
+}
+
+.emailSectionLeftPaddingInner {
+    text-indent: 0pt;
+    text-align: left;
+}
+
+.emailSection {
+    width: 87pt;
+    border-bottom-style: solid;
+    border-bottom-width: 1pt
+}
+
+.emailSectionTopPadding {
+    padding-top: 11pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+
+.emailSectionValue {
+    padding-left: 1pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+
+.emailValueAnchor {
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.headerSectionTitleRow {
+    height: 30pt;
+}
+
+.headerSectionTitleLeftPadding {
+    width: 143pt;
+    border-top-style: solid;
+    border-top-width: 1pt;
+}
+
+.headerSectionTitle {
+    width: 202pt;
+    border-top-style: solid;
+    border-top-width: 1pt;
+}
+
+.headerSectionTitleValue {
+    padding-top: 8pt;
+    padding-left: 58pt;
+    text-indent: 0pt;
+    text-align: left;
+    color: #a9a9de;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+.headerSectionTitleRightPadding1 {
+    width: 44pt;
+    border-top-style: solid;
+    border-top-width: 1pt;
+}
+
+.headerSectionTitleRightPadding2 {
+    width: 87pt;
+    border-top-style: solid;
+    border-top-width: 1pt;
+}

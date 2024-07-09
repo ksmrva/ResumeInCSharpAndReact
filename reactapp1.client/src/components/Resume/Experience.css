@@ -1,0 +1,114 @@
+.experienceTitleTopPadding {
+    text-indent: 0pt;
+    text-align: left;
+}
+
+.experienceTitleValue {
+    text-indent: 0pt;
+    text-align: center;
+    color: #a9a9de;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+.experienceTitleBottomPadding {
+    text-indent: 0pt;
+    text-align: left;
+}
+
+.experienceCompanyName {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+    float: left;
+}
+
+.experienceLocation {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+    float: right;
+}
+
+.experienceRole {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+    float: left;
+}
+
+.experienceDateRange {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+    float: right;
+}
+
+.experienceResponsibilitiesUnorderedList {
+    margin: 0;
+    text-indent: 0;
+}
+
+.experienceResponsibilitiesListItem {
+}
+
+.experienceResponsibilitiesValue {
+    padding-top: 6pt;
+    padding-left: 17pt;
+    text-indent: -5pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+    margin: 0pt;
+}
+
+.experienceCompanyNameAndLocation {
+    height: 21px;
+}
+
+.experienceRoleAndDateRange {
+    height: 21px;
+}
+
+.experienceResponsibilities {
+    height: 21px;
+}
+
+.experienceSection {
+    width: 100%;
+}

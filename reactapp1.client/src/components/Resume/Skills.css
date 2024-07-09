@@ -1,0 +1,69 @@
+.skillsSectionTitleRow {
+    height: 30pt;
+}
+
+.skillsSectionTitleLeftPadding {
+    width: 143pt;
+    border-top-style: solid;
+    border-top-width: 1pt;
+}
+
+.skillsSectionTitle {
+    width: 202pt;
+    border-top-style: solid;
+    border-top-width: 1pt;
+}
+
+.skillsSectionTitleValue {
+    padding-top: 8pt;
+    padding-left: 58pt;
+    text-indent: 0pt;
+    text-align: left;
+    color: #a9a9de;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+.skillsSectionTitleRightPadding1 {
+    width: 44pt;
+    border-top-style: solid;
+    border-top-width: 1pt;
+}
+
+.skillsSectionTitleRightPadding2 {
+    width: 87pt;
+    border-top-style: solid;
+    border-top-width: 1pt;
+}
+
+.skillRow {
+
+}
+
+.skillTableData {
+    width: 143pt;
+}
+
+.skillUnorderedList {
+    padding-left: 0pt;
+}
+
+.skillListItem {
+
+}
+
+.skillValue {
+    padding-top: 6pt;
+    padding-left: 17pt;
+    text-indent: -5pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
