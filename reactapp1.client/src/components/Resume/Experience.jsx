@@ -50,7 +50,7 @@ function Experience() {
         experiences.map((experience) => {
 
             var numberOfReponsibilities = experience.responsibilities.length;
-            var heightForExperienceSection = numberOfReponsibilities * 40;
+            var heightForExperienceSection = numberOfReponsibilities * 60;
 
             experienceSection.push(<div className="experienceSection" style={{ height: heightForExperienceSection }} >
                                       <div className="experienceCompanyNameAndLocation">

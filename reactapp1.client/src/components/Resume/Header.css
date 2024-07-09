@@ -88,7 +88,13 @@
 }
 
 .headerSectionTitleLeftPadding {
-    width: 143pt;
+    width: 315pt;
+    border-top-style: solid;
+    border-top-width: 1pt;
+}
+
+.headerSectionTitleRightPadding {
+    width: 131pt;
     border-top-style: solid;
     border-top-width: 1pt;
 }
@@ -110,16 +116,4 @@
     font-weight: bold;
     text-decoration: none;
     font-size: 12pt;
-}
-
-.headerSectionTitleRightPadding1 {
-    width: 44pt;
-    border-top-style: solid;
-    border-top-width: 1pt;
-}
-
-.headerSectionTitleRightPadding2 {
-    width: 87pt;
-    border-top-style: solid;
-    border-top-width: 1pt;
 }

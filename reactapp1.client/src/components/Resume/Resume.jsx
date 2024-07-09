@@ -8,7 +8,7 @@ function Resume() {
     
     return (
         <main>
-            <table>
+            <table className="headerAndSkillsSection">
                 <tbody>
                     <Header></Header>
                     <Skills></Skills>
