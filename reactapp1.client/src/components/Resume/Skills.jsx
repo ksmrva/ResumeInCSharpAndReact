@@ -31,8 +31,8 @@ function Skills() {
     function createSkillsForRow(skillsLength, rowNumber, numberOfSkillsPerRow) {
         const skillsForRow = [];
         for (var skillNumber = 0; skillNumber < numberOfSkillsPerRow; skillNumber++) {
-            var skillIndex = skillNumber + rowNumber;
-            if (skillIndex < (skillsLength - 1)) {
+            var skillIndex = skillNumber + (rowNumber * numberOfSkillsPerRow);
+            if (skillIndex < skillsLength) {
                 var skill = skills[skillIndex];
                 skillsForRow.push(createTableDataItemForSkill(skill));
             } else {
