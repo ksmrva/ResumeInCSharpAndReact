@@ -1,12 +1,12 @@
 ﻿namespace ReactApp1.Server.Models
 {
-    public class HeaderData
+    public record HeaderData
     {
-        public required string Address1 { get; set; }
-        public required string City { get; set; }
-        public required string State { get; set; }
-        public required string ZipCode { get; set; }
-        public required string PhoneNumber { get; set; }
-        public required string Email { get; set; }
+        public required string Address1 { get; init; }
+        public required string City { get; init; }
+        public required string State { get; init; }
+        public required string ZipCode { get; init; }
+        public required string PhoneNumber { get; init; }
+        public required string Email { get; init; }
     }
 }

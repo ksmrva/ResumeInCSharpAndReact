@@ -6,7 +6,7 @@ using System.Reflection.Emit;
 namespace ReactApp1.Server.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("resume")]
     public class ResumeController : ControllerBase
     {
         private readonly IResumeRepository resumeRepository;

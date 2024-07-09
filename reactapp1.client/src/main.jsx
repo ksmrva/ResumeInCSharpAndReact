@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Resume from './components/Resume/Resume.jsx'
+import Resume from './components/resume/Resume.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

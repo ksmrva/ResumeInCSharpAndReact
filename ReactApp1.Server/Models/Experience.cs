@@ -1,13 +1,13 @@
 ﻿namespace ReactApp1.Server.Models
 {
-    public class Experience
+    public record Experience
     {
-        public required string CompanyName { get; set; }
-        public required string City { get; set; }
-        public required string State { get; set; }
-        public required string Role { get; set; }
-        public required string FromDate { get; set; }
-        public required string ToDate { get; set; }
-        public required string[] Responsibilities { get; set; }
+        public required string CompanyName { get; init; }
+        public required string City { get; init; }
+        public required string State { get; init; }
+        public required string Role { get; init; }
+        public required string FromDate { get; init; }
+        public required string ToDate { get; init; }
+        public required string[] Responsibilities { get; init; }
     }
 }
