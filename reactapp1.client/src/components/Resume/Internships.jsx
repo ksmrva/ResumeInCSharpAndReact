@@ -49,9 +49,9 @@ function Internships() {
         internships.map((internship) => {
 
             var numberOfReponsibilities = internship.responsibilities.length;
-            var heightForExperienceSection = numberOfReponsibilities * 60;
+            var heightForInternshipSection = numberOfReponsibilities * 60;
 
-            internshipSection.push(<div className="internshipSection" style={{ height: heightForExperienceSection }} >
+            internshipSection.push(<div className="internshipSection" style={{ height: heightForInternshipSection }} >
                 <div className="internshipCompanyNameAndLocation">
                     <span className="internshipCompanyName">{internship.schoolName}</span>
                     <span className="internshipLocation">{internship.city}, {internship.state}</span>

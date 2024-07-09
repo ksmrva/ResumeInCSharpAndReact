@@ -1,0 +1,106 @@
+.educationTitleTopPadding {
+    text-indent: 0pt;
+    text-align: left;
+}
+
+.educationTitleValue {
+    text-indent: 0pt;
+    text-align: center;
+    color: #a9a9de;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+.educationTitleBottomPadding {
+    text-indent: 0pt;
+    text-align: left;
+}
+
+.educationSchoolName {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+    float: left;
+}
+
+.educationLocation {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+    float: right;
+}
+
+.educationDegree {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+    float: left;
+}
+
+.educationGraduationDate {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+    float: right;
+}
+
+.educationSchoolNameAndLocation {
+    height: 21px;
+}
+
+.educationDegreeAndGraduationDate {
+    height: 21px;
+}
+
+.educationSection {
+    width: 60%;
+}
+
+.educationGpa {
+    height: 21px;
+}
+
+.educationGpaValue {
+    padding-left: 10pt;
+    text-indent: 0pt;
+    line-height: 13pt;
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+    float: left;
+}

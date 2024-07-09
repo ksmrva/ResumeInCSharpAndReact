@@ -77,6 +77,16 @@ namespace ReactApp1.Server.Controllers
             }
         };
 
+        private static readonly Education Education = new Education
+        {
+            SchoolName = "Virginia Commonwealth University",
+            City = "Richmond",
+            State = "VA",
+            Degree = "Bachelor of Science in Computer Science",
+            GraduationDate = "12/2013",
+            GPA = "4.0"
+        };
+
         [HttpGet("header")]
         public HeaderData GetHeaderData()
         {
@@ -99,6 +109,12 @@ namespace ReactApp1.Server.Controllers
         public Internship[] GetInternships()
         {
             return Internships.ToArray();
+        }
+
+        [HttpGet("education")]
+        public Education GetEducation()
+        {
+            return Education;
         }
     }
 }
