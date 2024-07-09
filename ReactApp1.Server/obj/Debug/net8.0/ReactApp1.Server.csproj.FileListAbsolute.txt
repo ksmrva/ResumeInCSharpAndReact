@@ -33,3 +33,4 @@ C:\Users\ksmrv\source\repos\ReactApp1\ReactApp1.Server\obj\Debug\net8.0\refint\R
 C:\Users\ksmrv\source\repos\ReactApp1\ReactApp1.Server\obj\Debug\net8.0\ReactApp1.Server.pdb
 C:\Users\ksmrv\source\repos\ReactApp1\ReactApp1.Server\obj\Debug\net8.0\ReactApp1.Server.genruntimeconfig.cache
 C:\Users\ksmrv\source\repos\ReactApp1\ReactApp1.Server\obj\Debug\net8.0\ref\ReactApp1.Server.dll
+C:\Users\ksmrv\source\repos\ReactApp1\ReactApp1.Server\obj\Debug\net8.0\ReactApp1.Server.sourcelink.json
